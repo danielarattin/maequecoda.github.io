@@ -1,0 +1,47 @@
+body {
+    font-family: 'Dosis';
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 6rem;
+    border-bottom: solid 2px rgb(175, 175, 175);
+    background: #fff;
+
+    font-size: 20px;
+}
+
+img {
+    width: 55px;
+    height: 55px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    color: black;    
+}
+
+ul a:hover {
+    font-style: italic;
+}
+
+.button {
+    
+    padding: 1rem 1.6rem;
+    background: #757899;
+    color: white;
+    border-radius: .8rem;
+
+    transition: transform 100ms linear;
+
+}
+
+.button:hover {
+    font-style: normal;
+    transform: scale(1.08);
+}
