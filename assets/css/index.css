@@ -49,9 +49,6 @@ a:hover {
     transform: scale(1.08);
 }
 
-h1 {
-    font-family: 'Dosis', sans-serif;
-    font-size: 40px;
-    color: #1B2430;
-    
+h2 {
+    font-size: 30px;
 }
