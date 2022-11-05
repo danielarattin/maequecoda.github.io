@@ -1,0 +1,25 @@
+.button {
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;   
+    color: #ffffff;
+    background-color: #757899;  
+    height: 45px;
+    line-height: 45px; 
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 0px;
+    transition: transform 100ms linear;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.button:hover {
+    font-style: normal;
+    transform: scale(1.08);
+}
+
+a:hover {
+    font-style: italic;
+    
+}
