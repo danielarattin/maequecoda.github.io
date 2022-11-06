@@ -1,6 +1,6 @@
 .header {
     display: flex;    
-    background-color: #ffffff;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
     border-bottom: 2px solid #c0c3c6;
     padding: 10px 20px;
     justify-content: space-between;
