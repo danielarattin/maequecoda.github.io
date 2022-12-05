@@ -1,6 +1,7 @@
 .banner {
     background-image: url(../../img/banner.png);
-    height: 720px;
+    box-sizing: border-box;
+    height: 797px;
     background-repeat: no-repeat;
     background-size: 100%;
     border-bottom: 2px solid #c0c3c6;
@@ -8,16 +9,18 @@
 
 .banner .box {
     display: block;
+    margin-bottom: 40px;
 }
 
 .banner .envolver {
     display: flex;
     flex-direction: column;
     width: 640px;
-
+    padding-top: 115px;
+    padding-left: 90px;
 }
 
 .banner .navegacao {
-    display: flex;
+    display: flex;  
     justify-content: space-around;
 }
